@@ -1,0 +1,271 @@
+/* --- na 320px---*/
+@media screen and (max-width: 320px)  {
+    h1 {
+        font-size: 1.5em;}
+
+        h2{
+            font-size: 1.25em;}
+
+        img{
+            max-width: 90%;}
+
+        iframe{
+            max-width: 320px;}
+
+            .forma{
+                display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-left: 0px;}
+
+            fieldset{
+                display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0px;padding: 5px 5px 5px 5px;}
+        
+        .hedmenu a {
+    height: 30px;
+    width: 90px;}
+
+.header li {
+    font-size: 18px;
+    display: inline-block;
+    border: 1px ridge #a680ea;
+    height: 30px;
+    width: 90px;
+    line-height: 30px;}
+
+    .nazad input {
+    width: 190px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;}
+
+.logo {
+float: left;
+background-image: url(../img/лого320.jpg);
+width: 160px;
+margin: 5px 0 0 0;
+height: 125px;}
+
+p{
+    font-size: 15px;}
+
+.kratkkupit {
+    min-height: 130px;}
+
+.kupit {
+    font-size: 25px;
+    line-height: 50px;
+    height: 50px;
+    width: 100px;
+    margin: 10px 0 0 100px;}
+
+.kupit a {
+    height: 50px;
+    width: 100px;}
+
+.p1 { 
+    padding-left: 10px;}
+
+td {
+    font-size: 13px;}
+
+.hedmenu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;}
+
+.li1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;}
+
+header {
+    min-height: auto;}
+
+.imgtovar {
+    margin: 0 auto;}
+}
+
+
+/* --- na 375px---*/
+@media  handheld and(max-width: 375px) {
+        iframe{
+            max-width: 375px;}
+            .imgtovar {
+    margin: 0 auto;
+}
+}
+
+
+/* --- na 425px---*/
+@media handheld and (max-width: 425px) {
+    h1 {
+        font-size: 1.5em;}
+
+        h2{
+            font-size: 1.25em;}
+
+        img{
+            max-width: 90%;}
+
+        iframe{
+            max-width: 425px;}
+
+            .forma{
+                display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-left: 0px;}
+
+            fieldset{
+                display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0px;padding: 5px 5px 5px 5px; }
+        
+        .hedmenu a {
+    height: 30px;
+    width: 85px;}
+
+.header li {
+    font-size: 18px;
+    display: inline-block;
+    border: 1px ridge #a680ea;
+    height: 30px;
+    width: 85px;
+    line-height: 30px;}
+
+    .nazad input {
+    width: 190px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;}
+
+.logo {
+float: left;
+background-image: url(../img/лого320.jpg);
+width: 160px;
+margin: 5px 0 0 0;
+height: 125px;}
+
+p{
+    font-size: 15px;}
+
+.kratkkupit {
+    min-height: 130px;}
+
+.kupit {
+    font-size: 25px;
+    line-height: 50px;
+    height: 50px;
+    width: 100px;}
+
+.kupit a {
+    height: 50px;
+    width: 100px;}
+
+.p1 {
+    padding-left: 10px;}
+
+td {
+    font-size: 13px;}
+
+.hedmenu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;}
+
+.contopis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: max-content;}
+
+.li1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;}
+
+header {
+    min-height: auto;}
+}
+
+/* --- na 575px---*/
+@media screen and (max-width: 575px) {
+    .logo {
+float: left;
+background-image: url(../img/лого320.jpg);
+width: 160px;
+margin: 5px 0 0 0;
+height: 125px;}
+.hedmenu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;}
+
+
+
+.li1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;}
+
+header {
+    min-height: 140px;}
+}
+h1 {
+        font-size: 1.5em;}
+
+        h2{
+            font-size: 1.25em;}
+            .hedmenu a {
+    height: 30px;
+    width: 85px;}
+
+.header li {
+    font-size: 18px;
+    display: inline-block;
+    border: 1px ridge #a680ea;
+    height: 30px;
+    width: 85px;
+    line-height: 30px;}
+
+    .nazad input {
+    width: 190px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;}
+
+
+/* --- na 768px---*/
+@media handheld and (max-width: 768px)  {
+        iframe{
+            max-width: 100%;}
+
+            .adress{
+                margin-right: 10%;
+                margin-bottom: 10px;
+                float: right;}
+
+            body{
+                max-height: 100%;}
+            }
+
+
+            /* --- na 1024px---*/
+            @media handheld and (max-width: 1024px) {
+        iframe{
+            max-width: 100%;}
+            }
